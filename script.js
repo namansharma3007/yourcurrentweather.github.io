@@ -1,7 +1,3 @@
-const app = require('express')()
-const cors = require('cors')
-app.use(cors())
-
 let weather = {
     apiKey:"c75922bf9e3274652f0112981a5560f8",
     fetchWeather: function (city) {
